@@ -1,0 +1,137 @@
+23/2/21 - Lecture 1
+
+Definitions
+* Web Server: provides basic http service
+* Wer Service: provides a service based on operations defined at its interface
+* API: Defines the interface to a web service (or other component)
+* Web Application: Application running on a browser (w/ GUI) 
+
+URI: scheme:[//[user[:password]@]host[:port]][/path][?query][#fragment]
+
+HTTP Headers
+* Cookies 
+
+HTTP Requests:
+* GET, POST, PUT, DELETE
+* Body usually JSON
+HTTP Responses:
+* Status codes
+
+JavaScript
+* Lexical scoping
+* this
+* Method chaining
+* `use strict`
+
+2/3
+
+Assignemnt1:
+Building API server
+handle requests over HTTP
+template in eng git
+Assesed on how well follows spec
+auto tests described in readme
+
+Asynchronous events
+JS single thread, single concurrent language
+Event loop
+Watch "what the heck is the event loop anyway?"
+
+Callback Hell and Pyramid of Doom
+Promises, Async, Await
+
+
+---
+
+
+16/3
+REST, HTTP servers
+
+assignment backdoor functions
+bug in assignment
+
+Mid semester test
+* HTTP (Request and responses)
+* REST
+* JS
+* Web databases
+
+
+REST
+* Platform independent
+* Language independent
+* standards based (runs on HTTP)
+* easily used with firewalls
+
+resources are nouns w/ ids
+CRUD
+
+No security, guarantees
+Can be used with https though
+
+State and Stateless
+* timescales
+* Cookies
+
+
+HTTP 
+Idempotence (HEAD, GET, PUT, DELETE)
+Safety (GET, HEAD)
+
+CAP: consistency, availability, partition tolerance. Theory = you can have 2
+ACID: Atomicity, consistency, isolation, durability
+
+API versioning
+API publishing
+
+
+23/3/21
+
+TEST
+* on key concepts from last week
+* bring pen/pencil
+
+Assignment 1
+* Postman and auto testing
+* middleware 
+* controller
+* tips
+	* testing against api spec
+	* npm packges in package.json
+	* prefix url with api version
+	* double check api
+	* photos folder tracked - contents not
+	* mz/fs to handle reading and writing image files
+* password not in plain text (bcrypt)
+* auth token (rand-token)
+
+GraphQL
+* A spec for specifying data, querying data
+* extra lab on learn
+* Ask for fields in json
+* use get and post
+
+Automated testing
+* chai and mocha
+* js package
+* separate test project
+
+
+30/3/21
+Security and web clients
+
+OWASP (Open Web Application Security Project)
+- top security issues
+
+Injection - flaws in input validation
+Authentication - established claimed identity 
+Authorisation - established permission to act
+
+Session management
+Side doors
+
+JS
+HTML
+CSS
+
+Single page apps

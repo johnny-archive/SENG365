@@ -1,0 +1,19 @@
+{
+    "name": "2021-lab3",
+    "description": "A simple chat API.",
+    "homepage": "http://my.project.website",
+    "keywords": [
+        "chat",
+        "application",
+        "api"
+    ],
+    "author": "Jonathon Howe joh29@uclive.ac.nz",
+    "main": "app.js",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mysql2": "^2.1.0",
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0"
+    }
+}
